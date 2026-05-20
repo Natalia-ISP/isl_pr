@@ -90,6 +90,43 @@ h1 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
+.show-translation-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(154, 113, 192);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.show-translation-btn:hover {
+    background-color: rgb(135, 88, 179);
+    transform: translateY(-2px);
+}
+
+.show-translation-btn:active {
+    transform: translateY(1px);
+}
+
+.pokazat-perevod {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(154, 113, 192);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.pokazat-perevod:hover {
+    background-color: rgb(135, 88, 179);
+}
 
 .footer {
     display: flex;
