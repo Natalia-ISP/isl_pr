@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    padding: 0 16px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(135, 88, 179);
+}
+.logo {
+    color: rgb(154, 113, 192);
+    font-weight: bold;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.nav a {
+    color: rgb(154, 113, 192);
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.nav :hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 30px rgba(135, 88, 179, 0.2);
+}
+
+h2 {
+    color: rgb(154, 113, 192);
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin: 50px;
+}
+
+.card {
+    background: white;
+    width: calc(25% - 24px);
+    min-width: 250px;
+    border-radius: 20px;
+    padding: 20px 16px;
+    box-shadow: 0 8px 20px rgba(135, 88, 179, 0.12);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: default;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 30px rgba(135, 88, 179, 0.2);
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(154, 113, 192);
+    color: white;
+    padding: 20px;
+    justify-content: center;
+}
